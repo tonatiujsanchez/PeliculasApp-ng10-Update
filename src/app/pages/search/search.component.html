@@ -1,0 +1,7 @@
+<div *ngIf="movies.length > 0" class="row mb-5">
+    <div class="col">
+        <h2 class="mt-5">Resultado de: <small>{{ txtBuscar }}</small></h2>
+        <hr>
+        <app-peliculas-poster-grid [movies]="movies" ></app-peliculas-poster-grid>
+    </div>        
+</div>       
